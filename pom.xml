@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.muchi</groupId>
+  <artifactId>maven_ssm</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>war</packaging>
+    <!--直接依赖，A项目导入了B包，可以说A依赖B
+      传递依赖，A依赖B , B依赖C .A传递依赖C
+       解决jar包冲突
+       第一声明优先原则
+       路径者优先原则
+       直接排除法
+       -->
+</project>
