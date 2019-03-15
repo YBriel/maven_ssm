@@ -1,17 +1,13 @@
+
 package com.muchi.domain;
 
 import java.util.Date;
-
-/**
- * Created by yuzq on 2019/3/14.
- */
 public class Items {
-
     private Integer id;
     private String name;
     private Double price;
     private String pic;
-    private Date createtime;
+    private Date createTime;
     private String detail;
 
     public Integer getId() {
@@ -47,11 +43,11 @@ public class Items {
     }
 
     public Date getCreatetime() {
-        return createtime;
+        return createTime;
     }
 
     public void setCreatetime(Date createtime) {
-        this.createtime = createtime;
+        this.createTime = createtime;
     }
 
     public String getDetail() {
